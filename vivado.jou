@@ -23,3 +23,6 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Jens_/Documents/fsmIC/fsmIC.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+synth_design -rtl -rtl_skip_mlo -name rtl_1

@@ -136,3 +136,136 @@ Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: PROJECT_DASHBOARD_GADGET_NEW
 // TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
 // TclEventType: PROJECT_NEW
+// [GUI Memory]: 127 MB (+131023kb) [00:00:23]
+// [Engine Memory]: 1,061 MB (+961300kb) [00:00:23]
+// WARNING: HEventQueue.dispatchEvent() is taking  2811 ms.
+// Tcl Message: open_project C:/Users/Jens_/Documents/fsmIC/fsmIC.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Jens_/Documents/fsmIC/fsmIC.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'. 
+// Project name: fsmIC; location: C:/Users/Jens_/Documents/fsmIC; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1468.434 ; gain = 385.156 
+dismissDialog("Open Project"); // bj (Open Project Progress)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,085 MB. GUI used memory: 76 MB. Current time: 10/24/24, 5:40:28 PM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_memory (tb_memory.v), M2 : memory (memory.v)]", 3, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_memory (tb_memory.v), M2 : memory (memory.v), inst1 : decoder3to8 (decoder3to8.v)]", 4, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 27); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 28); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_memory (tb_memory.v)]", 29, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_memory (tb_memory.v)]", 29, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_memory (tb_memory.v)]", 29, true, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click - Node
+// [GUI Memory]: 148 MB (+14910kb) [00:00:52]
+selectCodeEditor("tb_memory.v", 291, 179); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 106, 214); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 101, 213); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 371, 127); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 342, 142); // ac (tb_memory.v)
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_memory.v", 325, 183); // ac (tb_memory.v)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aa
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_memory.v", 226, 100); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 208, 97); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 111, 404); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 167, 457); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 138, 449); // ac (tb_memory.v)
+// Elapsed time: 15 seconds
+selectCodeEditor("tb_memory.v", 225, 491); // ac (tb_memory.v)
+// Elapsed time: 13 seconds
+selectCodeEditor("tb_memory.v", 216, 67); // ac (tb_memory.v)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 12 seconds
+selectCodeEditor("tb_memory.v", 91, 39); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 507, 289); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 271, 245); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 284, 273); // ac (tb_memory.v)
+selectCodeEditor("tb_memory.v", 361, 280); // ac (tb_memory.v)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 02m:28s
+// Elapsed Time for: 'L.f': 02m:30s
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ap (PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, simulation_run_behavioral_menu)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-12493] Simulation top is 'tb_memory' 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Jens_/Documents/fsmIC/fsmIC.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.1/tps/boost_1_72_0' INFO: [SIM-utils-54] Inspecting design source files for 'tb_memory' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Jens_/Documents/fsmIC/fsmIC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_memory_vlog.prj" 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,109 MB. GUI used memory: 80 MB. Current time: 10/24/24, 5:42:53 PM CEST
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Jens_/Documents/fsmIC/fsmIC.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_memory_behav xil_defaultlib.tb_memory xil_defaultlib.glbl -log elaborate.log" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/Jens_/Documents/fsmIC/fsmIC.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Jens_/Documents/fsmIC/fsmIC.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1534.410 ; gain = 22.391 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+// [Engine Memory]: 1,119 MB (+5041kb) [00:03:03]
+selectButton("OptionPane.button", "OK", "Run Simulation"); // JButton (OptionPane.button)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // a (dialog0)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.v", 2); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "memory.v", 1); // o (PlanAheadTabBaseWorkspace_JideTabbedPane)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 13, true); // g (PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, Flow Navigator Tree) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+selectButton(RDIResource.BaseDialog_OK, "OK", "Elaborate Design"); // a (RDIResource.BaseDialog_OK)
+dismissDialog("Elaborate Design"); // t (dialog1)
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: memory 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,217 MB. GUI used memory: 81 MB. Current time: 10/24/24, 5:43:53 PM CEST
+// TclEventType: ELABORATE_START
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,381 MB. GUI used memory: 82 MB. Current time: 10/24/24, 5:44:08 PM CEST
+// TclEventType: ELABORATE_FAIL
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library. INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes. INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes INFO: [Synth 8-7075] Helper process launched with PID 25024 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2364.973 ; gain = 440.879 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'memory' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/memory.v:2] INFO: [Synth 8-6157] synthesizing module 'decoder3to8' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/decoder3to8.v:3] INFO: [Synth 8-6155] done synthesizing module 'decoder3to8' (0#1) [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/decoder3to8.v:3] INFO: [Synth 8-6157] synthesizing module 'fsmIC' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/fsmIC.v:3] INFO: [Synth 8-6155] done synthesizing module 'fsmIC' (0#1) [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/fsmIC.v:3] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'memory8bit' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/memory8bit.v:3] INFO: [Synth 8-6157] synthesizing module 'bitcell' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/bitcell.v:3] 
+// Tcl Message: ERROR: [Synth 8-439] module 'SR_latch' not found [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/bitcell.v:14] ERROR: [Synth 8-6156] failed synthesizing module 'bitcell' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/bitcell.v:3] ERROR: [Synth 8-6156] failed synthesizing module 'memory8bit' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/memory8bit.v:3] ERROR: [Synth 8-6156] failed synthesizing module 'memory' [C:/Users/Jens_/Documents/fsmIC/fsmIC.srcs/sources_1/new/memory.v:2] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2474.246 ; gain = 550.152 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: RTL Elaboration failed 
+// Tcl Message: 12 Infos, 5 Warnings, 0 Critical Warnings and 5 Errors encountered. synth_design failed 
+// Tcl Message: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Vivado_Tcl 4-5] Elaboration failed - please see the console for details  
+// Elapsed Time for: 'o.a': 25s
+// 'dQ' command handler elapsed time: 25 seconds
+// Elapsed time: 24 seconds
+dismissDialog("Open Elaborated Design"); // bj (Open Elaborated Design Progress)
+// [Engine Memory]: 1,579 MB (+423738kb) [00:04:22]
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK", "Critical Messages"); // f (PAResourceAtoD.CmdMsgDialog_OK)
+dismissDialog("Critical Messages"); // J (dialog2)
