@@ -3,10 +3,10 @@
 # SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Oct 24 17:39:48 2024
-# Process ID: 10996
+# Start of session at: Sat Oct 19 02:56:15 2024
+# Process ID: 3052
 # Current directory: C:/Users/Jens_/Documents/fsmIC
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25040 C:\Users\Jens_\Documents\fsmIC\fsmIC.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29196 C:\Users\Jens_\Documents\fsmIC\fsmIC.xpr
 # Log file: C:/Users/Jens_/Documents/fsmIC/vivado.log
 # Journal file: C:/Users/Jens_/Documents/fsmIC\vivado.jou
 # Running On        :ASUS_Zenbook
@@ -19,7 +19,7 @@
 # Host memory       :8365 MB
 # Swap memory       :15032 MB
 # Total Virtual     :23397 MB
-# Available Virtual :13257 MB
+# Available Virtual :7539 MB
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/Jens_/Documents/fsmIC/fsmIC.xpr
@@ -94,9 +94,79 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 avail
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
 INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Jens_/Documents/fsmIC/fsmIC.gen/sources_1'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/testbench.vhd'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
-open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1468.434 ; gain = 385.156
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:15 . Memory (MB): peak = 1474.332 ; gain = 382.289
+update_compile_order -fileset sources_1
+set_property top memory [current_fileset]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+export_ip_user_files -of_objects  [get_files C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/testbench.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/testbench.vhd
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\tb_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\tb_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\tb_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\fsmIC\fsmIC.srcs\sources_1\new\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\fsmIC.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\tb_memory.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Jens_\Documents\TFE4152_sources\TFE4152_project\decoder3to8.v:]
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 19 03:55:23 2024...
