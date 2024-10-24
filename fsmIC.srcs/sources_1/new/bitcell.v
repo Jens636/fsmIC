@@ -4,13 +4,14 @@ module bitcell(sel, inp, rw, outp);
 
     input sel, inp, rw;
     output outp;
-    
+	
     wire S, R;
     wire Q, Q_neg;
-    and(S, sel, inp, ~rw);
-    and(R, sel, ~inp, ~rw);
-    nand(Q, ~S, Q_neg);
-    nand(Q_neg, Q, ~R);
-    and(outp, sel, Q, rw);
+    
+    nand(S, sel, inp, ~rw);
+    nand(R, sel, ~inp, ~rw);
+    
+    SR_latch inst1 (S, R, Q, Q_neg);
+    and (outp, sel, Q, rw);
   
 endmodule
