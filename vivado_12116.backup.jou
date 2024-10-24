@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Oct 17 13:45:49 2024
+# Process ID: 12116
+# Current directory: C:/Users/Jens_/Documents/fsmIC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3288 C:\Users\Jens_\Documents\fsmIC\fsmIC.xpr
+# Log file: C:/Users/Jens_/Documents/fsmIC/vivado.log
+# Journal file: C:/Users/Jens_/Documents/fsmIC\vivado.jou
+# Running On        :ASUS_Zenbook
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+# CPU Frequency     :2112 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :8365 MB
+# Swap memory       :15032 MB
+# Total Virtual     :23397 MB
+# Available Virtual :8885 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Jens_/Documents/fsmIC/fsmIC.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_memory.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+close_sim
+launch_simulation
+source tb_memory.tcl
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+run all
+close_sim
+launch_simulation
+source tb_memory.tcl
+relaunch_sim
+close_sim
+close_design
+add_files {C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/bitcell.v C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/tb_memory.v C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/memory8bit.v C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/tb_fsmIC.v C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/decoder3to8.v C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/testbench.vhd C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/fsmIC.v C:/Users/Jens_/Documents/TFE4152_sources/TFE4152_project/memory.v}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top fsmIC [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
